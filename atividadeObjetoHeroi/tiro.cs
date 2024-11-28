@@ -18,9 +18,9 @@ namespace atividadeObjetoHeroi
 			timerTiro.Tick += timerTick;
 		}
 		
-		public int direcao = 1;
-		public int speed = 55;
-		public int dano = 10;
+		public int direcao;
+		public int speed;
+		public int dano;
 		public Personagem personagemAlvo;
 		public Timer timerTiro = new Timer();
 		
@@ -30,14 +30,13 @@ namespace atividadeObjetoHeroi
 			Left += direcao * speed;
 			
 			if(Left > MainForm.fundo.Width || Left < 0){
-				Destruir();
+				Destruir();	
 			}
 			
 			if(personagemAlvo.Bounds.IntersectsWith(this.Bounds)){
 				(personagemAlvo as Inimigo).Destruir();
-				Destruir();
+				Destruir();}
 			}
-		}
 		
 		public void Destruir(){
 			timerTiro.Enabled = false;

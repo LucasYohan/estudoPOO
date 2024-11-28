@@ -31,12 +31,5 @@ namespace atividadeObjetoHeroi
 			if(Top <= -20)
 				direcaoVertical = 1;
 		}
-		
-		public void Destruir()
-		{
-			timerMovimento.Enabled = false;
-			Left = 5900;
-			this.Dispose();
-		}
 	}
 }

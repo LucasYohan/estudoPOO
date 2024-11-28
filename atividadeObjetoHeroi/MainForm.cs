@@ -18,6 +18,7 @@ namespace atividadeObjetoHeroi
 		
 		public static ListBox listaTiros = new ListBox();
 		public static ProgressBar barra = new ProgressBar();
+
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
@@ -40,11 +41,6 @@ namespace atividadeObjetoHeroi
 			barra.Value = 6;
 		}
 	
-			
-		
-			
-						
-		
 		//Movimento do Heroi
 		
 		void MainFormKeyDown(object sender, KeyEventArgs e){
@@ -72,7 +68,7 @@ namespace atividadeObjetoHeroi
 			if(e.KeyCode == Keys.Space){
 				
 				if(barra.Value > 0){
-				tiro tiro = new tiro();
+				TiroHeroi tiro = new TiroHeroi();
 				listaTiros.Items.Add(tiro);
 				tiro.direcao = julio.direcao;
 				tiro.Load("fireball.gif");

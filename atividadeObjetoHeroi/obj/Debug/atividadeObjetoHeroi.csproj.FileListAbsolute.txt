@@ -38,3 +38,11 @@ D:\DS\Saiz\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHe
 D:\DS\Saiz\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.csproj.GenerateResource.Cache
 D:\DS\Saiz\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.exe
 D:\DS\Saiz\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.pdb
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\bin\Debug\atividadeObjetoHeroi.exe.config
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\bin\Debug\atividadeObjetoHeroi.exe
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\bin\Debug\atividadeObjetoHeroi.pdb
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.MainForm.resources
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.csproj.GenerateResource.Cache
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.exe
+C:\Users\aluno\Downloads\atividadeObjetoHeroi\atividadeObjetoHeroi\obj\Debug\atividadeObjetoHeroi.pdb
