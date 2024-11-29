@@ -9,6 +9,7 @@ namespace atividadeObjetoHeroi
 	{
 		public Personagem()
 		{
+			a
 			Width = 90;
 			Height = 90;
 			SizeMode = PictureBoxSizeMode.StretchImage;

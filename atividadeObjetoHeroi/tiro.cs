@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace atividadeObjetoHeroi
 {
-	public class tiro: PictureBox
+	public class tiro : PictureBox
 	{
 		public tiro()
 		{
@@ -17,28 +17,33 @@ namespace atividadeObjetoHeroi
 			timerTiro.Enabled = true;
 			timerTiro.Tick += timerTick;
 		}
-		
+
 		public int direcao;
 		public int speed;
 		public int dano;
 		public Personagem personagemAlvo;
 		public Timer timerTiro = new Timer();
-		
-		
-		void timerTick(object sender, EventArgs e){
-			
+
+
+		void timerTick(object sender, EventArgs e)
+		{
+
 			Left += direcao * speed;
-			
-			if(Left > MainForm.fundo.Width || Left < 0){
-				Destruir();	
+
+			if (Left > MainForm.fundo.Width || Left < 0)
+			{
+				Destruir();
 			}
-			
-			if(personagemAlvo.Bounds.IntersectsWith(this.Bounds)){
+
+			if (personagemAlvo.Bounds.IntersectsWith(this.Bounds))
+			{
 				(personagemAlvo as Inimigo).Destruir();
-				Destruir();}
+				Destruir();
 			}
-		
-		public void Destruir(){
+		}
+
+		public void Destruir()
+		{
 			timerTiro.Enabled = false;
 			Left = 600;
 			MainForm.listaTiros.Items.Remove(this);
